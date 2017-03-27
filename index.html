@@ -55,6 +55,9 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+		<script>
+			function speak(message){var msg=new SpeechSynthesisUtterance(message);
+						window.speechSynthesis.speak(msg); }
+		</script>
 	</body>
 </html>
